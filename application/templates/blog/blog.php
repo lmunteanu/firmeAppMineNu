@@ -99,8 +99,11 @@
          <a href="/admin.php">Admin area</a>
       </div>
       <div class="paragraf">
-         <a href="/firme.php">Firme app</a>
+         <a href="/firme.php">Firme App</a>
       </div>
+       <div class="paragraf">
+           <a href="/mathtrainer/index.html">Math Trainer</a>
+       </div>
    </div><!-- end content-right-->
 </div><!-- end content -->
   

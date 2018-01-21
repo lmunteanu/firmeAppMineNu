@@ -1,6 +1,7 @@
 
 *.clpprj
-.idea/*
-fmath/*
+.idea/
+forkmath/
+mathtrainer/
 FirmeApp.clpprj
 FirmeApp_clcs.csprj
