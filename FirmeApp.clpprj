@@ -1,3 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\xampp\htdocs\FirmeApp.clpprj">
-	<settings><PM_URL><![CDATA[C:/Web/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Web/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS></settings></project>
+	<settings><PM_URL><![CDATA[C:/Web/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Web/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[lucianuc @ ftp.lucianu.cu.ma]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\xampp\htdocs\application\classes\DBMySql.php"/>
+	</lastopfiles>
+	<errors version="5.11">
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+		<todofile name="C:\xampp\htdocs\public\jq-ui\jquery-ui.js">
+			<todo name="TODO: remove support for widgetEventPrefix" pos="3;154"/>
+			<todo name="TODO: is this right? should we include anything with css width specified as well" pos="3;3531"/>
+			<todo name="TODO: It should never be possible to not have an active item at this" pos="3;5550"/>
+			<todo name="TODO: Find a more generic solution" pos="6;6355"/>
+			<todo name="TODO rename to &quot;widget&quot; when switching to widget factory" pos="2;7314"/>
+			<todo name="TODO: make sure destroying one instance of mouse doesn't mess with" pos="2;9319"/>
+			<todo name="TODO: determine which cases actually cause this to happen" pos="3;10832"/>
+			<todo name="TODO: Unwrap at same DOM position" pos="3;10942"/>
+			<todo name="TODO: make renderAxis a prototype function" pos="3;11054"/>
+			<todo name="TODO: Seems like a bug to cache this.outerDimensions" pos="4;11434"/>
+			<todo name="TODO: Don't modify option" pos="24;11465"/>
+			<todo name="TODO: remove after 1.12" pos="3;11835"/>
+			<todo name="TODO: Remove hack when datepicker implements" pos="3;12763"/>
+			<todo name="TODO: switch return back to widget declaration at top of file when this is removed" pos="1;12832"/>
+			<todo name="TODO: Remove in 1.13 along with call to it below" pos="2;13079"/>
+			<todo name="TODO: switch return back to widget declaration at top of file when this is removed" pos="1;13300"/>
+			<todo name="TODO: Still need to figure out a way to make relative sorting possible" pos="3;15416"/>
+			<todo name="TODO: do we really want to consider this a stop?" pos="3;16938"/>
+			<todo name="TODO: Right now button does not support classes this is already updated in button PR" pos="3;16975"/>
+			<todo name="TODO: what should we do with values that can't be parsed?" pos="4;17185"/>
+			<todo name="TODO: switch return back to widget declaration at top of file when this is removed" pos="1;17267"/>
+			<todo name="TODO: Switch return back to widget declaration at top of file when this is removed" pos="1;18185"/>
+			<todo name="TODO: Switch return back to widget declaration at top of file when this is removed" pos="1;18682"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="C:\xampp\htdocs\resources\sign-up.html" crc="1516211105"/>
+		<file name="C:\xampp\htdocs\resources\login.html" crc="1516211104"/>
+		<file name="C:\xampp\htdocs\resources\index.php" crc="1516211103"/>
+		<file name="C:\xampp\htdocs\resources\hello-world.php" crc="1516211102"/>
+		<file name="C:\xampp\htdocs\resources\edit-article.html" crc="1516211101"/>
+		<file name="C:\xampp\htdocs\resources\content.css" crc="1516211100"/>
+		<file name="C:\xampp\htdocs\resources\content.1.css" crc="1516211099"/>
+		<file name="C:\xampp\htdocs\resources\blog.php" crc="1516211097"/>
+		<file name="C:\xampp\htdocs\resources\blog.html" crc="1516211096"/>
+		<file name="C:\xampp\htdocs\resources\blog.css" crc="1516211095"/>
+		<file name="C:\xampp\htdocs\resources\articol.html" crc="1516211094"/>
+		<file name="C:\xampp\htdocs\resources\article1.php" crc="1516211093"/>
+		<file name="C:\xampp\htdocs\resources\article.php" crc="1516211091"/>
+		<file name="C:\xampp\htdocs\resources\article.html" crc="1516211090"/>
+		<file name="C:\xampp\htdocs\public\test\testuser.php" crc="1516211058"/>
+		<file name="C:\xampp\htdocs\public\test\testUpload.php" crc="1516211057"/>
+		<file name="C:\xampp\htdocs\public\test\testComment.php" crc="1516211056"/>
+		<file name="C:\xampp\htdocs\public\test\testArticle.php" crc="1516211055"/>
+		<file name="C:\xampp\htdocs\public\test\import.php" crc="1516211053"/>
+		<file name="C:\xampp\htdocs\public\js\teste\testCom\testCom.html" crc="1516211036"/>
+		<file name="C:\xampp\htdocs\public\js\teste\testCom\CommentsLuci.js" crc="1516211035"/>
+		<file name="C:\xampp\htdocs\public\js\teste\testCom\CommentListLuci.js" crc="1516211033"/>
+		<file name="C:\xampp\htdocs\public\js\teste\testCom\CommentList.js" crc="1516211032"/>
+		<file name="C:\xampp\htdocs\public\js\teste\testCom\Comment.js" crc="1516211030"/>
+		<file name="C:\xampp\htdocs\public\js\teste\test2.js" crc="1516211048"/>
+		<file name="C:\xampp\htdocs\public\js\teste\test1.js" crc="1516211046"/>
+		<file name="C:\xampp\htdocs\public\js\teste\test.js" crc="1516211045"/>
+		<file name="C:\xampp\htdocs\public\js\teste\objects.js" crc="1516211044"/>
+		<file name="C:\xampp\htdocs\public\js\teste\obj.js" crc="1516211043"/>
+		<file name="C:\xampp\htdocs\public\js\teste\closure.js" crc="1516211042"/>
+		<file name="C:\xampp\htdocs\public\js\teste\classes2.js" crc="1516211041"/>
+		<file name="C:\xampp\htdocs\public\js\teste\classes.js" crc="1516211040"/>
+		<file name="C:\xampp\htdocs\public\js\teste\arrays.js" crc="1516211039"/>
+		<file name="C:\xampp\htdocs\public\js\teste\ajaxLuci.js" crc="1516211037"/>
+		<file name="C:\xampp\htdocs\public\js\temaJs3\results.php" crc="1516211007"/>
+		<file name="C:\xampp\htdocs\public\js\temaJs3\results.js" crc="1516211006"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\comments\testComments.html" crc="1516211029"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\comments\main.js" crc="1516211028"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\comments\CommentList.js" crc="1516211027"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\comments\Comment.js" crc="1516211026"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\ajaxR\testAjaxR.html" crc="1516211024"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\ajaxR\main.js" crc="1516211023"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\ajaxR\getCommentsWORKEDluci.php" crc="1516211022"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\ajaxR\articleWorkedLuci.js" crc="1516211021"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\ajaxR\ajaxRequest.js" crc="1516211020"/>
+		<file name="C:\xampp\htdocs\public\js\temajs2\ajaxR\ajaxRequest-workingLuci.js" crc="1516211019"/>
+		<file name="C:\xampp\htdocs\public\js\temajs1\js\tema7.js" crc="1516211017"/>
+		<file name="C:\xampp\htdocs\public\js\temajs1\js\tema6.js" crc="1516211014"/>
+		<file name="C:\xampp\htdocs\public\js\temajs1\js\tema5.js" crc="1516211013"/>
+		<file name="C:\xampp\htdocs\public\js\temajs1\js\tema4.js" crc="1516211012"/>
+		<file name="C:\xampp\htdocs\public\js\temajs1\js\tema3.js" crc="1516211011"/>
+		<file name="C:\xampp\htdocs\public\js\temajs1\js\tema2.js" crc="1516211010"/>
+		<file name="C:\xampp\htdocs\public\js\temajs1\js\tema1.js" crc="1516211009"/>
+		<file name="C:\xampp\htdocs\public\js\temajs1\temaJS.html" crc="1516211018"/>
+		<file name="C:\xampp\htdocs\public\js\firme\firme.js" crc="1516211005"/>
+		<file name="C:\xampp\htdocs\public\js\cursDOM\file.js" crc="1516211004"/>
+		<file name="C:\xampp\htdocs\public\js\cursDOM\file.html" crc="1516211003"/>
+		<file name="C:\xampp\htdocs\public\js\blog\slideshow.js" crc="1516211002"/>
+		<file name="C:\xampp\htdocs\public\js\blog\article.js" crc="1516211001"/>
+		<file name="C:\xampp\htdocs\public\js\admin\article.js" crc="1516210999"/>
+		<file name="C:\xampp\htdocs\public\js\testAjax.html" crc="1516211052"/>
+		<file name="C:\xampp\htdocs\public\js\chart.js" crc="1516211051"/>
+		<file name="C:\xampp\htdocs\public\js\ajaxRequest.js" crc="1516211050"/>
+		<file name="C:\xampp\htdocs\public\js\ajax.js" crc="1516211049"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\south-street\theme.css" crc="1516210987"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\south-street\jquery-ui.min.css" crc="1516210986"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\south-street\jquery-ui.css" crc="1516210985"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\jquery-ui.theme.min.css" crc="1516210998"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\jquery-ui.theme.css" crc="1516210997"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\jquery-ui.structure.min.css" crc="1516210996"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\jquery-ui.structure.css" crc="1516210995"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\jquery-ui.min.js" crc="1516210994"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\jquery-ui.min.css" crc="1516210992"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\jquery-ui.js" crc="1516210991"/>
+		<file name="C:\xampp\htdocs\public\jq-ui\jquery-ui.css" crc="1516210988"/>
+		<file name="C:\xampp\htdocs\public\css\firme\zstyle-firme.css" crc="1516210956"/>
+		<file name="C:\xampp\htdocs\public\css\firme\zstyle-control.css" crc="1516210954"/>
+		<file name="C:\xampp\htdocs\public\css\firme\style-comun.css" crc="1516210953"/>
+		<file name="C:\xampp\htdocs\public\css\firme\firme-bootstrap.css" crc="1516210952"/>
+		<file name="C:\xampp\htdocs\public\css\board\responsive.css" crc="1516210951"/>
+		<file name="C:\xampp\htdocs\public\css\board\header.css" crc="1516210950"/>
+		<file name="C:\xampp\htdocs\public\css\board\generic.css" crc="1516210949"/>
+		<file name="C:\xampp\htdocs\public\css\board\drawings.css" crc="1516210948"/>
+		<file name="C:\xampp\htdocs\public\css\board\content.css" crc="1516210947"/>
+		<file name="C:\xampp\htdocs\public\css\board\aside.css" crc="1516210946"/>
+		<file name="C:\xampp\htdocs\public\css\blog\slideshow.css" crc="1516210944"/>
+		<file name="C:\xampp\htdocs\public\css\blog\responsive.css" crc="1516210943"/>
+		<file name="C:\xampp\htdocs\public\css\blog\images.css" crc="1516210942"/>
+		<file name="C:\xampp\htdocs\public\css\blog\generic.css" crc="1516210941"/>
+		<file name="C:\xampp\htdocs\public\css\blog\blog.css" crc="1516210940"/>
+		<file name="C:\xampp\htdocs\public\css\blog\article.css" crc="1516210939"/>
+		<file name="C:\xampp\htdocs\public\css\style.css" crc="1516210959"/>
+		<file name="C:\xampp\htdocs\public\css\style-blog.css" crc="1516210958"/>
+		<file name="C:\xampp\htdocs\public\css\login-up.css" crc="1516210957"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\components\old-index.php" crc="1516210924"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\components\index.php" crc="1516210923"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\view_firma.php" crc="1516210933"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\home.php" crc="1516210932"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\home.html" crc="1516210931"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\home-old.php" crc="1516210930"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\del_firma.php" crc="1516210928"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\add_firma.php" crc="1516210927"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\add_firma.html" crc="1516210926"/>
+		<file name="C:\xampp\htdocs\application\templates\firme\add_firma-old.php" crc="1516210925"/>
+		<file name="C:\xampp\htdocs\application\templates\control\components\old-index.php" crc="1516210911"/>
+		<file name="C:\xampp\htdocs\application\templates\control\components\index.php" crc="1516210910"/>
+		<file name="C:\xampp\htdocs\application\templates\control\stats.php" crc="1516210922"/>
+		<file name="C:\xampp\htdocs\application\templates\control\old-stats.php" crc="1516210920"/>
+		<file name="C:\xampp\htdocs\application\templates\control\old-home.php" crc="1516210919"/>
+		<file name="C:\xampp\htdocs\application\templates\control\home.php" crc="1516210918"/>
+		<file name="C:\xampp\htdocs\application\templates\control\home.html" crc="1516210917"/>
+		<file name="C:\xampp\htdocs\application\templates\control\add_control.php" crc="1516210915"/>
+		<file name="C:\xampp\htdocs\application\templates\control\add_control.html" crc="1516210914"/>
+		<file name="C:\xampp\htdocs\application\templates\control\add_control-old2.php" crc="1516210913"/>
+		<file name="C:\xampp\htdocs\application\templates\control\add_control-old.php" crc="1516210912"/>
+		<file name="C:\xampp\htdocs\application\templates\blog\components\index.php" crc="1516210905"/>
+		<file name="C:\xampp\htdocs\application\templates\blog\slideshow.php" crc="1516210909"/>
+		<file name="C:\xampp\htdocs\application\templates\blog\blog.php" crc="1516210907"/>
+		<file name="C:\xampp\htdocs\application\templates\blog\article.php" crc="1516210906"/>
+		<file name="C:\xampp\htdocs\application\templates\admin\components\sidebar.php" crc="1516210898"/>
+		<file name="C:\xampp\htdocs\application\templates\admin\components\not-found.php" crc="1516210897"/>
+		<file name="C:\xampp\htdocs\application\templates\admin\components\index.php" crc="1516210896"/>
+		<file name="C:\xampp\htdocs\application\templates\admin\components\header.php" crc="1516210895"/>
+		<file name="C:\xampp\htdocs\application\templates\admin\register.php" crc="1516210904"/>
+		<file name="C:\xampp\htdocs\application\templates\admin\login.php" crc="1516210903"/>
+		<file name="C:\xampp\htdocs\application\templates\admin\home.php" crc="1516210902"/>
+		<file name="C:\xampp\htdocs\application\templates\admin\article.php" crc="1516210900"/>
+		<file name="C:\xampp\htdocs\application\templates\admin\article-delete.php" crc="1516210899"/>
+		<file name="C:\xampp\htdocs\application\templates\not-found.php" crc="1516210934"/>
+		<file name="C:\xampp\htdocs\application\pages\firme\view_firma.php" crc="1516210894"/>
+		<file name="C:\xampp\htdocs\application\pages\firme\home.php" crc="1516210893"/>
+		<file name="C:\xampp\htdocs\application\pages\firme\add_firma.php" crc="1516210891"/>
+		<file name="C:\xampp\htdocs\application\pages\control\statsold.php" crc="1516210890"/>
+		<file name="C:\xampp\htdocs\application\pages\control\stats.php" crc="1516210889"/>
+		<file name="C:\xampp\htdocs\application\pages\control\home.php" crc="1516210888"/>
+		<file name="C:\xampp\htdocs\application\pages\control\add_control.php" crc="1516210887"/>
+		<file name="C:\xampp\htdocs\application\pages\control\add_control-old.php" crc="1516210886"/>
+		<file name="C:\xampp\htdocs\application\pages\blog\slideshow.php" crc="1516210885"/>
+		<file name="C:\xampp\htdocs\application\pages\blog\blog.php" crc="1516210884"/>
+		<file name="C:\xampp\htdocs\application\pages\blog\article.php" crc="1516210882"/>
+		<file name="C:\xampp\htdocs\application\pages\ajax\testLuci.php" crc="1516210881"/>
+		<file name="C:\xampp\htdocs\application\pages\ajax\test.php" crc="1516210880"/>
+		<file name="C:\xampp\htdocs\application\pages\ajax\login.php" crc="1516210879"/>
+		<file name="C:\xampp\htdocs\application\pages\ajax\getsumm.php" crc="1516210878"/>
+		<file name="C:\xampp\htdocs\application\pages\ajax\getComments.php" crc="1516210877"/>
+		<file name="C:\xampp\htdocs\application\pages\ajax\changeCommentState.php" crc="1516210876"/>
+		<file name="C:\xampp\htdocs\application\pages\admin\register.php" crc="1516210874"/>
+		<file name="C:\xampp\htdocs\application\pages\admin\logout.php" crc="1516210873"/>
+		<file name="C:\xampp\htdocs\application\pages\admin\login.php" crc="1516210872"/>
+		<file name="C:\xampp\htdocs\application\pages\admin\home.php" crc="1516210871"/>
+		<file name="C:\xampp\htdocs\application\pages\admin\article.php" crc="1516210870"/>
+		<file name="C:\xampp\htdocs\application\pages\admin\article-delete.php" crc="1516210869"/>
+		<file name="C:\xampp\htdocs\application\classes\User.php" crc="1516210868"/>
+		<file name="C:\xampp\htdocs\application\classes\Media.php" crc="1516210867"/>
+		<file name="C:\xampp\htdocs\application\classes\Login_history.php" crc="1516210865"/>
+		<file name="C:\xampp\htdocs\application\classes\Firma.php" crc="1516210864"/>
+		<file name="C:\xampp\htdocs\application\classes\DBMySqlInterface.php" crc="1516210863"/>
+		<file name="C:\xampp\htdocs\application\classes\DBMySql.php" crc="1516218591"/>
+		<file name="C:\xampp\htdocs\application\classes\Control.php" crc="1516210861"/>
+		<file name="C:\xampp\htdocs\application\classes\Comment.php" crc="1516210860"/>
+		<file name="C:\xampp\htdocs\application\classes\BaseObjectInterface.php" crc="1516210859"/>
+		<file name="C:\xampp\htdocs\application\classes\BaseObject.php" crc="1516210857"/>
+		<file name="C:\xampp\htdocs\application\classes\Article.php" crc="1516210856"/>
+		<file name="C:\xampp\htdocs\application\initold.php" crc="1516210938"/>
+		<file name="C:\xampp\htdocs\application\init.php" crc="1516210937"/>
+		<file name="C:\xampp\htdocs\application\functions.php" crc="1516210935"/>
+		<file name="C:\xampp\htdocs\testjs.html" crc="1516211114"/>
+		<file name="C:\xampp\htdocs\my_slideshow.html" crc="1516211113"/>
+		<file name="C:\xampp\htdocs\indexold.html" crc="1516211112"/>
+		<file name="C:\xampp\htdocs\index.php" crc="1516211111"/>
+		<file name="C:\xampp\htdocs\hack.php" crc="1516211110"/>
+		<file name="C:\xampp\htdocs\firme.php" crc="1516211109"/>
+		<file name="C:\xampp\htdocs\control.php" crc="1516211108"/>
+		<file name="C:\xampp\htdocs\admin.php" crc="1516211106"/>
+	</filescache>
+</project>

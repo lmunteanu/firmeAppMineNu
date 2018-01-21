@@ -1,0 +1,6 @@
+
+*.clpprj
+.idea/*
+fmath/*
+FirmeApp.clpprj
+FirmeApp_clcs.csprj
