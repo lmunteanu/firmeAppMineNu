@@ -9,6 +9,7 @@ define('ADMIN_TEMPLATES_PATH', APPLICATION_PATH . 'templates/admin/');
 define('PUBLIC_TEMPLATES_PATH', APPLICATION_PATH . 'templates/blog/');
 define('FIRME_TEMPLATES_PATH', APPLICATION_PATH . 'templates/firme/');
 define('CONTROL_TEMPLATES_PATH', APPLICATION_PATH . 'templates/control/');
+define('MATH_TEMPLATES_PATH', APPLICATION_PATH . 'templates/math/');
 define('PUBLIC_DIR', APPLICATION_PATH . '../public');
 define('WEB_DIR', APPLICATION_PATH . '../');
 define('UPLOADS_DIR', 'public/uploads/');

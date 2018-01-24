@@ -64,7 +64,7 @@
    					<?=$i ?> 
    				</a>
    			<?php } else { ?>
-   				<span class="activeP" alt="Current Page"> 
+   				<span class="activeP" title="Current Page">
    					<?=$i ?> 
    				</span>	
    			<?php } ?>
@@ -102,7 +102,7 @@
          <a href="/firme.php">Firme App</a>
       </div>
        <div class="paragraf">
-           <a href="/mathtrainer/index.html">Math Trainer</a>
+           <a href="/math.php">Math Trainer</a>
        </div>
    </div><!-- end content-right-->
 </div><!-- end content -->
