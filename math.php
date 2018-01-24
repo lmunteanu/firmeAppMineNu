@@ -1,13 +1,17 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Munteanu
+ * User: Munteanu modified version easier to use elsewhere
  * Date: 1/23/2018
  * Time: 9:55 PM
  */
-$theFileIs = 'math';
 
 require_once('application/init.php');
+
+// the 2 files need editing for use elsewhere!
+$theFileIs = 'math';
+$thePath = MATH_TEMPLATES_PATH;
+
 
 session_start();
 
@@ -20,9 +24,9 @@ $TEMPLATE_VARS['mainTemplateFile'] = 'components/index.php';
 $page = isset($_GET['page']) ? $_GET['page'] : $theFileIs;
 
 
-if (!User::isLogged() && !in_array($page, array('login', 'register'))) {
-    redirect('/admin.php?page=login');
-}
+//if (!User::isLogged() && !in_array($page, array('login', 'register'))) {
+//    redirect('/admin.php?page=login');
+//}
 
 if ($page === 'ajax') {
     $action = $_GET['action'];
@@ -42,5 +46,5 @@ unset ($_SESSION['globalError']);
 $TEMPLATE_VARS['loggedUser'] = User::getLogged();
 
 if ($page !== 'ajax') {
-    require_once(MATH_TEMPLATES_PATH . $TEMPLATE_VARS['mainTemplateFile']);
+    require_once($thePath . $TEMPLATE_VARS['mainTemplateFile']);
 }

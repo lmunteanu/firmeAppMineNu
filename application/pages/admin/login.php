@@ -5,7 +5,8 @@ $msg = isset($_GET['register']) ? 'You are now registered, proceed with login.' 
 $TEMPLATE_VARS['successMsg'] = $msg;
 
 if (User::isLogged()) {
-   redirect('/admin.php');
+//   redirect('/admin.php');
+   redirect('/admin/logout.php');
 }
 
 if (isPost()) {
