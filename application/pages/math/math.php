@@ -30,14 +30,14 @@ $mathHistory->gameTime = 55;
 $mathHistory->gameScore = 11;
 
 if (isPost()) {
-    echo "[ " .
+    echo "[ isPost " .
         " - 2uname: " . $mathHistory->username .
         " - 2userip: " . $mathHistory->userIp .
         " - 2gametime: " . $mathHistory->gameTime .
         " - 2gamescore: " . $mathHistory->gameScore .
         " ]" ;
 } else {
-    echo "[ " .
+    echo "[ noPost" .
         " - uname: " . $mathHistory->username .
         " - userip: " . $mathHistory->userIp .
         " - gametime: " . $mathHistory->gameTime .

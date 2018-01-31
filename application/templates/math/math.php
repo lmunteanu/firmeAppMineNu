@@ -5,7 +5,7 @@
 <!-- * Time: 10:08 PM-->
 <!--https://form.jotform.co/80236413944859-->
 <!-- */-->
-<form class="" method="POST" enctype="multipart/form-data" action="" target="frame">
+<!--<form class="" method="POST" enctype="multipart/form-data" action="" target="frame">-->
     <label for="thename">Numele tau: </label>
     <input type="text" id="thename" name="math-name"
            value="<?= htmlspecialchars($TEMPLATE_VARS['mathHistory']->username) ?>"/>
@@ -87,5 +87,7 @@
 
 
     </div>
-</form>
-<iframe style="display: none;" name="frame"></iframe>
+<!--</form>-->
+<!--<iframe style="display: none;" name="frame">-->
+<!---->
+<!--</iframe>-->

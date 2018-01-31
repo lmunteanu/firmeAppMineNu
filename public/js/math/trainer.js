@@ -1,3 +1,4 @@
+console.log('in trainer');
 (function () {
   'use strict';
 
@@ -27,7 +28,6 @@
     avoidNegatives: true,
     operators: ['add', 'div']
   };
-
   /**
    * Statistics of the current run.
    */
@@ -347,9 +347,11 @@
         // sic: the event is mistyped
         .on('stoped.countdown', function (event) {
           showScore(computeElapsedTime(event));
-        })
+                writeit();
+            })
         .on('finish.countdown', function () {
           showScore();
+                writeit();
         });
       };
 
